@@ -1,0 +1,13 @@
+test_login:
+  test_login_001:
+    accounts:"yaoyao"
+    pwd :""
+    exp :"密码格式6-18个字符之间"
+  test_login_002:
+    accounts:"yaoyao"
+    pwd :""
+    exp :"账号登录有误"
+  test_login_003:
+    accounts:"yaoyao"
+    pwd :""
+    exp :"账号不存在"
